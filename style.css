@@ -3,7 +3,7 @@ body {
   display: grid;
   grid-template-rows: 75px 1fr;
   grid-template-columns: 1% 1fr;
-  grid-template-areas: "header header header" "nav article x";
+  grid-template-areas: "header header header" "nav article article";
   grid-gap: 10px;
   font-size: 22px;
 }
