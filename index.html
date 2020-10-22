@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <form id="loginForm">
+        <label for="loginEmailInput">Email</label>
+        <input
+          value="eve.holt@reqres.in"
+          type="email"
+          id="loginEmailInput"
+          name="email"
+        />
+        <label for="loginPasswordInput">Password</label>
+        <input
+          value="cityslicka"
+          type="password"
+          id="loginPasswordInput"
+          name="password"
+        />
+        <input type="submit" value="login" />
+      </form>
+      <div id="loginErrorMessage" class="hide"></div>
+      <button class="showUsersButton hide">Show users</button>
+    </div>
+    <ul class="usersList"></ul>
+    <div class="article">
+      <div class="userInfoContainer"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

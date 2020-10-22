@@ -1,0 +1,44 @@
+body {
+  font-family: arial;
+  display: grid;
+  grid-template-rows: 75px 1fr;
+  grid-template-columns: 1% 1fr;
+  grid-template-areas: "header header header" "nav article x";
+  grid-gap: 10px;
+  font-size: 22px;
+}
+
+header,
+article,
+nav,
+div {
+  padding: 20px;
+}
+
+.nav {
+  grid-area: nav;
+  text-align: left;
+}
+
+.header {
+  grid-area: header;
+  text-align: left;
+}
+
+.article {
+  grid-area: article;
+  text-align: center;
+}
+
+.showUsersButton {
+  margin-top: 20px;
+  margin-left: 58px;
+}
+
+.hide {
+  display: none;
+}
+
+#loginErrorMessage {
+  margin-left: 20px;
+}
